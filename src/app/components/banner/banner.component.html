@@ -1,0 +1,14 @@
+<ion-row class="borderBottom">
+  <div>
+    <swiper-container
+    [modules]="swiperModules" 
+    [slidesPerView]="1.2" [loop]="true"
+    [spaceBetween]="20"
+    [keyboard]="true"
+    [pagination]="{clickable: true, dynamicBullets: true}">
+    <swiper-slide *ngFor="let image of bannerImages">
+      <img [src]="image?.banner"/>
+    </swiper-slide>
+    </swiper-container>
+  </div>
+</ion-row> 

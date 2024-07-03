@@ -1,0 +1,19 @@
+<ion-item lines="none">
+  <ion-thumbnail slot="start">
+    <img [src]="restaurant?.cover? restaurant.cover : 'assets/imgs/kebab.webp'"/>
+  </ion-thumbnail>
+  <ion-label>
+    <h4>{{restaurant?.name}}</h4>
+    <ion-text color="medium">
+      <p class="pStyle">{{restaurant?.description}}
+      </p>
+    <ion-text color="dark">
+      <span>
+        <ion-icon name="star"></ion-icon>
+        {{restaurant?.rating}}
+      </span>
+    </ion-text>
+     
+    </ion-text>
+  </ion-label>
+</ion-item>

@@ -1,0 +1,7 @@
+{
+  "name": "SchnellFood-master",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
